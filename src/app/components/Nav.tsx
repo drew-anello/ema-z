@@ -2,7 +2,7 @@ import Link from "next/link"
 function Nav() {
     return (
         <div>
-            <ul>
+            <ul className=" flex justify-around">
                 <li>
                     <Link href='/'>
                         Home
@@ -11,6 +11,16 @@ function Nav() {
                 <li>
                     <Link href='/resume'>
                         Resume
+                    </Link>
+                </li>
+                <li>
+                    <Link href='/choreography'>
+                        Choreography
+                    </Link>
+                </li>
+                <li>
+                    <Link href='/contact'>
+                        Contact
                     </Link>
                 </li>
             </ul>
