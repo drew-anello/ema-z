@@ -1,9 +1,10 @@
-
 function page() {
     return (
-        <div>
-            This is your resume
-        </div>
+        <main className="mb-10">
+            <div className="mt-20">
+                This is your resume
+            </div>
+        </main>
     )
 }
 
