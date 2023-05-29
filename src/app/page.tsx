@@ -8,6 +8,7 @@ export default function Home() {
       <div className="mt-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-1.5">
 
+
           <Image className="w-2/3"
             src={img1}
             alt="Ema on fire escape smoking"
