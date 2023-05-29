@@ -1,13 +1,12 @@
 import Image from "next/image"
 import img1 from "../../public/assets/website/ema1.jpg"
 import img2 from "../../public/assets/website/ema2.jpg"
-import img3 from "../../public/assets/website/ema3.jpg"
+import img3 from "../../public/assets/website/ema3.jpeg"
 export default function Home() {
   return (
     <main className="mb-10">
       <div className="mt-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-1.5">
-
 
           <Image className="w-2/3"
             src={img1}
