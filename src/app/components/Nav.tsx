@@ -1,8 +1,8 @@
 import Link from "next/link"
 function Nav() {
     return (
-        <div>
-            <ul className=" flex justify-around">
+        <div className="mt-3 font-serif text-xl">
+            <ul className="flex justify-around">
                 <li>
                     <Link href='/'>
                         Home
