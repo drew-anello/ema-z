@@ -15,6 +15,9 @@ function Nav() {
             <Link href="/choreography">Choreography</Link>
           </li>
           <li className="mt-2 md:mt-0 md:ml-4">
+            <Link href="/media">Media</Link>
+          </li>
+          <li className="mt-2 md:mt-0 md:ml-4">
             <Link href="/contact">Contact</Link>
           </li>
         </div>

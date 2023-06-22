@@ -11,9 +11,9 @@ function page() {
       </div>
       <br></br>
       <div className="flex mt-4 ">
-        <div className="justify-center border-8 border-green-400">
+        <div className="justify-center border-8 border-purple-400">
           <a
-            className="text-xl font-extrabold text-orange-500 bg-green-400 border-4 border-green-400"
+            className="text-xl font-normal text-white bg-purple-400 border-4 border-purple-400"
             href="./emaResume.pdf"
             download="Ema's Resume"
           >

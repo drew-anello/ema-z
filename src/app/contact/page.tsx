@@ -1,7 +1,5 @@
 function page() {
-    return (
-        <div>Contact</div>
-    )
+  return <div></div>;
 }
 
-export default page
+export default page;
