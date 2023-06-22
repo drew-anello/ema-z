@@ -14,7 +14,7 @@ function page() {
         <div className="justify-center border-8 border-purple-400">
           <a
             className="text-xl font-normal text-white bg-purple-400 border-4 border-purple-400"
-            href="./emaResume.pdf"
+            href="../emaResume.pdf"
             download="Ema's Resume"
           >
             Download My Resume
