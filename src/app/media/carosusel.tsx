@@ -30,6 +30,7 @@ export default class NextJsCarousel extends Component {
             <Image src={media1} alt="image1" />
           </div>
         </Carousel>
+
         <br></br>
       </div>
     );
