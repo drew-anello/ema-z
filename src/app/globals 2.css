@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    background-color: papayawhip;
+    margin: auto;
+    padding: 0;
+}

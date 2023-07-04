@@ -2,23 +2,14 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import media1 from "../../../public/assets/website/media1.jpg";
-import ema1 from "../../../public/assets/website/ema1.jpg";
 import ema3 from "../../../public/assets/website/ema3.jpeg";
+import emamedia from "../../../public/assets/website/emamedia.jpeg";
+import dance2 from "../../../public/assets/website/dance2.jpeg";
+
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 export default function Carousel() {
-  // const slides = [
-  //   {
-  //    <Image
-  //    src={media1} />
-  //   },
-  //   {
-  //     url: ema1,
-  //   },
-  // ];
-
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [media1, ema1, ema3];
+  const images = [emamedia, dance2, ema3];
 
   const prevImage = () => {
     const isFirstImage = currentIndex === 0;
